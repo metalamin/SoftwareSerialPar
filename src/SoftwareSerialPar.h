@@ -1,5 +1,13 @@
 /*
-SoftwareSerialPar.h (formerly NewSoftSerial.h) - 
+SoftwareSerialPar.h
+Modification of Arduino Software Serial to implement parity for transmission
+Only Even parity is implemented for now.
+TODO:
+- Implement Odd parity option
+- Implement Inverted signal support
+- Merge and contribute to official repo
+
+SoftwareSerial.h (formerly NewSoftSerial.h) -
 Multi-instance software serial library for Arduino/Wiring
 -- Interrupt-driven receive and other improvements by ladyada
    (http://ladyada.net)
